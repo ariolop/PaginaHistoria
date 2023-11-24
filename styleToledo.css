@@ -1,3 +1,27 @@
+.carousel{
+    height: 500px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
 .tamaño {
     top: 100%;
     left: 0;
@@ -227,17 +251,6 @@ a:hover {
     bottom: 2.8%;
     right: 1%;
     font-size: 14px;
-}
-
-.iconWhat{
-    margin-right: 4px;
-    font-size: 19px;
-}
-
-div .btnWhat{
-    position:sticky;
-    top:auto;
-    
 }
     
  /* Pagina de contactos */

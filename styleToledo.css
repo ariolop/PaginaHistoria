@@ -14,17 +14,6 @@
     margin-right: 5px;
 }
 
-
-
-.tamaño {
-    top: 100%;
-    left: 0;
-    width: auto;
-    height: auto;
-    padding: 20px 30px;
-    background: #ffffff;
-    display: none;
-  }
   .tamañoFlex{
     display: flex;
     justify-content: center;

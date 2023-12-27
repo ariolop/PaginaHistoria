@@ -129,13 +129,6 @@ a:hover {
     background-color: rgba(204, 156, 0, 0.2);
 }
 
-.centrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Ajusta la altura de la tarjeta para centrar el contenido verticalmente */
-}
-
 .espo{
     font-size: 14px;
 }
@@ -144,14 +137,10 @@ a:hover {
     box-shadow:12px 12px 20px 3px rgba(0, 0, 255, .2); ;
 }
 
-.descrip2{
-    font-size: 26px;
+.bg-black {
+    background: #000000;
 }
 
-.footer{
-    background: #0C0000;
-    padding:60px 120px !important;
-}
 .coluFoo{
     padding: 0px 40px 20px 0;
 }
@@ -170,7 +159,6 @@ a:hover {
     }
 
 .footDiseñado{
-    background: #000000;
     padding-top: 20px;
 }
 

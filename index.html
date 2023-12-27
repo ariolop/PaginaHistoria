@@ -198,20 +198,29 @@
             </div>
         </div>
             
-                <!-- descrip + Imagen boton -->
+        <!-- descrip + Imagen boton -->
         <div class="row m-5 mb-5">
-            <p class="gris">Toledo 3 Culturas se limita a ofrecer información general sobre alojamiento, restaurantes y actividades en Toledo. De ninguna manera se responsabiliza de la satisfacción de los clientes que contraten alguno de estos servicios en Toledo. Toledo 3 Culturas tampoco actúa como intermediario entre el cliente y estos sevicios.</p>
+            <div class="col-12">
+                <p class="text-center gris">Toledo 3 Culturas se limita a ofrecer información general sobre alojamiento, restaurantes y actividades en Toledo. De ninguna manera se responsabiliza de la satisfacción de los clientes que contraten alguno de estos servicios en Toledo. Toledo 3 Culturas tampoco actúa como intermediario entre el cliente y estos sevicios.</p>
+            </div>
         </div>
 
         <div class="row mx-5 mt-5">
-            <p class="descrip2 dorado text-center">Exprese en el siguiente formulario sus sugerencias para la mejora del servicio que ofrece Toledo 3 Culturas. Así mismo, también podrá indicar las quejas que tuviera. Será contestado en el menor espacio de tiempo.</p>
+            <div class="col-12">
+                <p class="fs-4 dorado text-center">Exprese en el siguiente formulario sus sugerencias para la mejora del servicio que ofrece Toledo 3 Culturas. Así mismo, también podrá indicar las quejas que tuviera. Será contestado en el menor espacio de tiempo.</p>
+            </div>
         </div>
 
         <div class="row mx-5">
-            <div class="card">
-                <img src="t/contacto.jpg" height="100px" width="auto" class="card-img" alt="...">
-                <div class="card-img-overlay centrar">
-                    <a href="contactos.html"><button id="contactoCambiar" onmouseover="cambiarTexto()" onmouseout="Texto()" class="contac">Contacto</button></a>
+            <div class="col-12">
+                <div class="card">
+                    <img src="t/contacto.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <!-- Meter un boton dentro de un enlace no tiene sentido. Esto hay que modificarlo. -->
+                        <a href="contactos.html">
+                            <button id="contactoCambiar" onmouseover="cambiarTexto()" onmouseout="Texto()" class="contac">Contacto</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,51 +230,51 @@
         </div>
     </div>
 
-    <div class="container-fluid footer mt-5">
-        <div class="row mx-5">
-            <div class="col-lg-3 col-md-6 col-sm-12 coluFo ">
-                <p class="dorado tituloFoot">Enlaces de Interés:</p>
-                <p class="text-white textFoot">Templarios, instrumentos de tortura, mazmorras
-                    Ayuntamiento de Toledo
-                    Estación de autobuses de Toledo
-                    Ave a Toledo
-                    Plano turístico de Toledo</p>
-                    <img src="t/Logo-SICTED-ES-EN.jpg" class="margen" width="100%" alt="">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 coluFoo">
-                <p class="dorado tituloFoot">Busca tu Ruta:</p>
-                <form class="buscardor">
-                    <input class="search rounded-start" width="10" type="search" name="search" id="search"><button class="buscar rounded-end"> Buscar</button>
-                </form>
-                <p class="dorado tituloFoot tituloFoot margen2">Reserva en:</p>
-                <p class="text-white textFoot">603 420 820</p>
-                <p class="text-white textFoot">info@toledo3culturas.com</p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 coluFoo">
-                <p class="dorado tituloFoot">Otros enlaces</p>
-                <ul class="text-white textFoot">
-                    <li>Forma de pago</li>
-                    <li>Política de Privacidad</li>
-                    <li>Política de cookies</li>
-                    <li>Aviso Legal</li>
-                    <li>Encuesta de Satisfacción</li>
-                </ul>
-                <img class="margen" src="t/t.jpeg" width="100%" alt="" srcset="">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 coluFoo">
-                <p class="dorado tituloFoot tituloFoot">Turismo Responsable</p>
-                <img src="t/Turismo-Seguro.jpg" width="100%" alt="">
-            </div>
-        </div>  
+    <div class="container-fluid footer mt-5 pt-5 bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="dorado tituloFoot">Enlaces de Interés:</p>
+                    <p class="text-white textFoot">Templarios, instrumentos de tortura, mazmorras
+                        Ayuntamiento de Toledo
+                        Estación de autobuses de Toledo
+                        Ave a Toledo
+                        Plano turístico de Toledo</p>
+                        <img src="t/Logo-SICTED-ES-EN.jpg" class="margen" width="100%" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="dorado tituloFoot">Busca tu Ruta:</p>
+                    <form class="buscardor">
+                        <input class="search rounded-start" width="10" type="search" name="search" id="search"><button class="buscar rounded-end"> Buscar</button>
+                    </form>
+                    <p class="dorado tituloFoot tituloFoot margen2">Reserva en:</p>
+                    <p class="text-white textFoot">603 420 820</p>
+                    <p class="text-white textFoot">info@toledo3culturas.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="dorado tituloFoot">Otros enlaces</p>
+                    <ul class="text-white textFoot">
+                        <li>Forma de pago</li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de cookies</li>
+                        <li>Aviso Legal</li>
+                        <li>Encuesta de Satisfacción</li>
+                    </ul>
+                    <img class="margen" src="t/t.jpeg" width="100%" alt="" srcset="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="dorado tituloFoot tituloFoot">Turismo Responsable</p>
+                    <img src="t/Turismo-Seguro.jpg" width="100%" alt="">
+                </div>
+            </div>  
     
-    </div>    
-    <div class="container-fluid">
-        <div class="row footDiseñado">
-            <div class="col-12 text-center">
-                <p class="diseñado"><b>Diseñado por Social-media-Managers | 2017 | Todos los derechos reservados | info@social-media-managers.es</b></p>
+            <div class="row footDiseñado mt-3">
+                <div class="col-12 text-center">
+                    <p class="diseñado"><b>Diseñado por Social-media-Managers | 2017 | Todos los derechos reservados | info@social-media-managers.es</b></p>
+                </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

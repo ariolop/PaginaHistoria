@@ -283,3 +283,10 @@ input, textarea{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+/* Patrimonio */
+.owl-carousel{
+    background: #34E0A1;
+}

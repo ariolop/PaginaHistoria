@@ -277,5 +277,8 @@ input, textarea{
 
 /* Patrimonio */
 .owl-carousel{
-    background: #34E0A1;
+    max-width:100%;
+    height: auto;
+    margin-bottom: 20px;
 }
+

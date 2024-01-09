@@ -7,9 +7,9 @@
   }
 
   function cambiarTexto2() {
-    document.querySelector('#botonCambiar').innerText = "Consulte nuestras visitas diarias y reserve ahora  >";
+    document.querySelector('#botonCambiar').innerText = "Consulta nuestras fantasticas rutas >";
   }
 
   function Texto2() {
-    document.querySelector('#botonCambiar').innerText = "Consulte nuestras visitas diarias y reserve ahora";
+    document.querySelector('#botonCambiar').innerText = "Consulta nuestras fantasticas rutas";
   }

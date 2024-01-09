@@ -1,9 +1,9 @@
 .carousel{
-    height: 500px;
+    height: 70vh;
 }
 
-.carousel-item{
-    height: 500px;
+.carousel-item {
+    height: 70vh;
 }
 
 .carousel .carousel-indicators button {
@@ -51,6 +51,10 @@ a {
 
 a:hover {
     color:#e6969a !important;
+}
+
+.hoverIluminar:hover img{
+    filter: brightness(0.8);
 }
 
 .subMenu{
@@ -268,7 +272,7 @@ input, textarea{
 /* Banner */
 .banner {
     height: 200px;
-    background-image: url(t/visitasDiarias.png);
+    background-image: url(../t/visitasDiarias.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

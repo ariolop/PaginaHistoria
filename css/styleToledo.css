@@ -26,9 +26,15 @@
     justify-content: center;
   }
 
-a{
+.menu .nav-item a {
     color:#C44750 !important;
+    transition: color 0.5s !important;
 }
+
+.menu .nav-item a:hover {
+    color:#e6969a !important;
+}
+
 p{
     font-size: 16px;
 }
@@ -51,13 +57,9 @@ p{
     border-top: #00AA6C;
 }
 
-a {
-    color: #C44750;
-    transition: color 0.5s !important;
-  }
 
-a:hover {
-    color:#e6969a !important;
+.hoverIluminarFondo:hover {
+    background-color: #111;
 }
 
 .hoverIluminar:hover img{

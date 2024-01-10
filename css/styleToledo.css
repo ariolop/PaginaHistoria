@@ -6,6 +6,13 @@
     height: 70vh;
 }
 
+    .carousel-item img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
 .carousel .carousel-indicators button {
     width: 8px;
     height: 8px;

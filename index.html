@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Baza Tres Culturas</title>
+    <link rel="icon" href="t/logo/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleToledo.css">
 </head>
 <body>
     <!-- Menú -->
-    <div class="container-fluid sticky-top bg-white">
-        <div class="row">
-            <div class="col-12">
+    <div class="container-fluid sticky-top bg-white pt-1">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
                 <!--Icono-->
-                <img src="t/logo-toledo-3-culturas-300.png"class="mx-auto d-block" alt="Icono Culturas Baza">
+                <a href="index.html">
+                    <img src="t/logo/logo proyecto.png" alt="Icono Culturas Baza">
+                </a>
             </div>
             <div class="col-12">
                 <!-- Menu -->
-                <nav class="navbar navbar-expand-lg navbar-light"> 
-                    <div class="container-fluid justify-content-center">
+                <nav class="navbar navbar-expand-lg navbar-light pt-0"> 
+                    <div class="container-fluid justify-content-center px-0">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                            <ul class="navbar-nav px-3 justify-content-between fs">
+                            <ul class="navbar-nav justify-content-between text-center fs-6">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="index.html"><b>Inicio</b></a>
                                 </li>
@@ -33,21 +36,21 @@
                                     <a class="nav-link" aria-current="page" href="patrimonioNatural.html"><b>Patrimonio Natural</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html"><b>Quienes somos</b></a>
+                                    <a class="nav-link" aria-current="page" href="quienesSomos.html"><b>Quienes somos</b></a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" href="index.html"><b>Nuestras rutas</b></a>
                                     <!-- Crear página con Google Maps insertado o enlace directo a Google Maps creando una pestaña nueva -->
                                     <ul class="dropdown-menu py-3 px-2" aria-labelledby="navbarDropdown">
                                         <li><hr></li>
-                                        <li><a class="dropdown-item" href="#"><b>Ruta Cristiana</b></a></li>
-                                        <li><a class="dropdown-item" href="#"><b>Ruta Andalusí</b> </a></li>
-                                        <li><a class="dropdown-item" href="#"><b>Ruta Judía</b> </a></li>
+                                        <li><a class="dropdown-item" target="_blank" href="https://www.google.com/maps/d/edit?hl=es&mid=1ibYE7XB7y9IPVy5sxNFkJhlXw1Zndbw&ll=37.48892169513837%2C-2.7751389999999843&z=16"><b>Ruta Cristiana</b></a></li>
+                                        <li><a class="dropdown-item" target="_blank" href="https://www.google.com/maps/d/edit?hl=es&mid=1peCmpVHl4lMp7ZUWQ-OUdpk-aZ08PJI&ll=37.49058865046556%2C-2.773070850000008&z=17"><b>Ruta Andalusí</b> </a></li>
+                                        <li><a class="dropdown-item" target="_blank" href="https://www.google.com/maps/d/edit?hl=es&mid=1mJae-DUrfggFtQLF1v7AkojthqYBkiQ&ll=37.490141386913095%2C-2.777085099999994&z=18"><b>Ruta Judía</b> </a></li>
                                     </ul>
                                 </li>
         
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#"><b>Gastronomía</b></a>
+                                    <a class="nav-link" aria-current="page" href="gastronomia.html"><b>Gastronomía</b></a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page"><b>3 Culturas</b></a>
@@ -58,10 +61,10 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="contactos.html"><b>Museo Virtual</b></a>
+                                    <a class="nav-link active" aria-current="page" target="_blank" href="https://view.genial.ly/63af31d1d309ae0012bc045f/interactive-content-virtualmuseumlivingandfeelingheritage"><b>Museo Virtual</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#"><b>Contacto</b></a>
+                                    <a class="nav-link" aria-current="page" href="contactos.html"><b>Contacto</b></a>
                                 </li>
                             </ul>
                         </div>
@@ -86,22 +89,22 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="t/1.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/1.jpg" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="t/2.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/2.jpg" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="t/3.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/3.jpg" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="t/4.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/4.jpg" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="t/5.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/5.jpg" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="t/6.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="t/carousel/6.jpg" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -129,7 +132,7 @@
         <div class="row mt-5">
             <div class="col-12">
                 <h2 class="text-center">Ruta Cristiana</h2>
-                <iframe class="w-100" src="https://www.google.com/maps/d/embed?mid=1ibYE7XB7y9IPVy5sxNFkJhlXw1Zndbw&hl=es&ehbc=2E312F" height="500"></iframe>
+                <iframe class="w-100" loading="eager" src="https://www.google.com/maps/d/embed?mid=1ibYE7XB7y9IPVy5sxNFkJhlXw1Zndbw&hl=es&ehbc=2E312F" height="500"></iframe>
             </div>
         </div>
         <div class="row mt-5">
@@ -177,7 +180,6 @@
                         <li>Aviso Legal</li>
                         <li>Encuesta de Satisfacción</li>
                     </ul>
-                    <img class="margen" src="t/t.jpeg" width="100%" alt="" srcset="">
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <p class="dorado tituloFoot tituloFoot">Turismo Responsable</p>

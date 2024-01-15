@@ -2,42 +2,44 @@
     height: 70vh;
 }
 
-.carousel-item {
-    height: 70vh;
-}
-
-    .carousel-item img {
-        object-fit: cover;
-        object-position: center;
-        height: 100%;
-        width: 100%;
+    .carousel-item {
+        height: 70vh;
     }
 
-.carousel .carousel-indicators button {
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+        .carousel-item img {
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+
+    .carousel .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
   .tamañoFlex{
     display: flex;
     justify-content: center;
   }
 
-.menu .nav-item a {
-    color:#C44750 !important;
-    transition: color 0.5s !important;
-}
-
-.menu .nav-item a:hover {
-    color:#e6969a !important;
-}
-
 .menu {
     font-size: 15px;
 }
+
+    .menu .nav-item a {
+        color:#C44750 !important;
+        transition: color 0.3s !important;
+    }
+
+    .menu .nav-item a:hover {
+        color:#C00 !important;
+    }
+
+
 
 p{
     font-size: 16px;
@@ -52,18 +54,24 @@ p{
     z-index: 9999; 
 }
 .dropdown-menu hr{
-    height: 3px !important;
-    top: 0 !important;
-    border: none;
+    height: 3px;
     margin: -8px 0px 10px;
-    width: auto;
-    border-color: #00AA6C;
-    border-top: #00AA6C;
 }
 
+.dropdown-item:active {
+    background-color: #CCC;
+}
+
+.hoverOscurecerFoto {
+    transition: filter 0.3s linear;
+}
+
+.hoverOscurecerFoto:hover{
+    filter: brightness(0.8);
+}
 
 .hoverIluminarFondo:hover {
-    background-color: #999;
+    background-color: rgb(116, 127, 136);
 }
 
 .hoverIluminar:hover {

@@ -314,22 +314,31 @@ input, textarea{
 /* Museo virtual */
 
 .archivos{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    margin: 0 auto;
-    max-width: 800px;
-    gap:20px;
     transition: all 0.3s ease-in;
- 
+    padding: 0px 50px;
 }
+
 .card{
-    transition: filter 0.3s ease-in;
-    background: rgba(0, 0, 0, .2);
+    transition: all 0.3s ease-in;
+    background: rgba(0, 0, 0, .1);
+
 }
 
 .card:hover{
-    filter: saturate(0%);
+    filter: brightness(60%);
+    box-shadow: 7px 4px 10px rgb(192, 192, 192);
+}
+    .card img{
+        width: 100%;
+    }
 
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 20px;
 }
 
 

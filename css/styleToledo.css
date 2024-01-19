@@ -310,3 +310,26 @@ input, textarea{
     height: 400px;
 }
 
+
+/* Museo virtual */
+
+.archivos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 0 auto;
+    max-width: 800px;
+    gap:20px;
+    transition: all 0.3s ease-in;
+ 
+}
+.card{
+    transition: filter 0.3s ease-in;
+    background: rgba(0, 0, 0, .2);
+}
+
+.card:hover{
+    filter: saturate(0%);
+
+}
+
+

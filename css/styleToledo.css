@@ -339,6 +339,8 @@ input, textarea{
 
 .titulo{
     font-size: 20px;
+    min-height: 90px;
+    
 }
 
 

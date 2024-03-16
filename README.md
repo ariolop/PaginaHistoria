@@ -1,4 +1,4 @@
 # Proyecto 'Baza3Culturas'
 
 Una página web en la que encontrar información sobre la historia de Baza.
-Desarrollada por [Laura Rodríguez](https://github.com/lauraRodri98) y [Alejandr]([https://](https://github.com/ariolop))
+Desarrollada por [Laura Rodríguez](https://github.com/lauraRodri98) y [Alejandro Ríos]([https://](https://github.com/ariolop))

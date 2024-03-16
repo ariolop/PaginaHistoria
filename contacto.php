@@ -89,24 +89,28 @@
         <div class="row justify-content-evenly formularioMapa">
             <div class="col-10 col-lg-5 border border-1 border-dark p-3 mb-5 mb-lg-0">
                 <!-- Formulario -->
-                <form class="form" action="#">
+                <form class="form" action="contacto.php">
                     <div class="row justify-content-end">
                         <div class="mb-3 col-6">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                            <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                         </div>
                         <div class="mb-3 col-6">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
                         </div>
                         <div class="mb-3 col-12">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+                            <input type="email" name="asunto" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
                         </div>
                         <div class="mb-3 col-12">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                            <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
                         </div>
                         <div class="mb-4 col-4">
-                            <input class="form-control" type="submit" id="exampleFormControlTextarea1">
+                            <input class="form-control" name="sumbit" type="submit" id="exampleFormControlTextarea1">
                         </div>     
                     </div>                   
+
+                    <?php 
+                        /* Enviar correcto cuando se ejecute formulario y mostrar mensajito */
+                    ?>
                 </form>
             </div>
 
